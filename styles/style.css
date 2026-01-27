@@ -1,0 +1,54 @@
+ input{
+    border-radius: 5px;
+    border: 1px solid #EAEAEA;
+    padding: 12px 14px;
+}
+input::placeholder{
+    color: #A5A5A5;
+    text-align: start;
+    font-size: 14px;
+}
+div{
+    display: flex;
+    flex-direction: column;
+
+    align-items: start;
+    padding: 20px 30px;
+    gap: 16px;
+}
+
+.button{
+    border-radius: 5px;
+    background: #46A358;
+    color: #FFF;
+    font-family: "Cera Pro";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 100% */
+    padding: 16px 110px;
+}
+.button1{
+    color: #727272;
+    text-align: center;
+    font-family: "Cera Pro";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 123.077% */
+    padding: 13px 80px;
+    background: none;
+    fill: #FFF;
+
+}
+.button2{
+    color: #727272;
+    text-align: center;
+    font-family: "Cera Pro";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 123.077% */
+    background: none;
+    padding: 14px 80px;
+}
