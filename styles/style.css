@@ -48,93 +48,162 @@
 div.conteiner{
     padding: 30px 120px 52px;
     display: flex;
+    flex-direction: row;
+    gap: 50px;
+
+}
+
+div.conteiner-left{
+    display: flex;
     flex-direction: column;
+    color: #3D3D3D;
+    font-family: "Cera Pro Regular", sans-serif;
+    font-size: 16px;
+    align-content: space-between;
+    justify-content: space-between;
+    gap: 50px;
+    background: linear-gradient(98deg, rgba(245, 245, 245, 0.50) -23.46%, rgba(245, 245, 245, 0.50) 107.51%);
+   
+}
+div.conteiner-right{
+    /* margin-left: 50px; */
+}
+
+div.categories{
+    color: #3D3D3D;
+    font-family: "Cera Pro Regular", sans-serif;
+    font-size: 14px;
+}
+menu.categories{
+    padding: 15px 15px;
+}
+
+h4.catItem{
+    color: #3D3D3D;
+    font-family: "Cera Pro Bold", sans-serif;
+    font-size: 14px;
+}
+
+li.catItem{
+    color: #3D3D3D;
+    font-family: "Cera Pro Regular", sans-serif;
+    font-size: 14px;
+    padding-bottom: 8px;
+}
+
+li.catItem.active{
+    font-family: "Cera Pro Bold", sans-serif;
+    color: #46A358;
+    border-color:#46A358;
+}
+div.promo{
+    display: flex;
+    width: 310px;
+    height: auto;
+    padding-right: 50px;
+    align-items: flex-end;
 }
 
 header.header{
     display: flex;
     justify-content: space-between;
-    align-items: start;
-    border-bottom: 1px solid rgba(70, 163, 88, 0.50);
+    /* align-items: start; */
     margin-bottom: 12px;
+    color: #3D3D3D;
+    font-family: "Cera Pro Regular", sans-serif;
+    font-size: 12px;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+p.sort{
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: space-around;
+    gap: 2px;
 }
 
 menu.menu{
     display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    flex-direction: row;
     gap: 50px;
-    justify-content: center;
     align-items: center;
+   
 }
 
 li.menuItem{
     color: #3D3D3D;
     font-family: "Cera Pro Regular", sans-serif;
-    font-size: 16px;
-    padding-bottom: 25px;
+    font-size: 12px;
+    padding-bottom: 8px;
     border-bottom: 3px solid transparent;
 }
 
 li.menuItem.active{
     font-family: "Cera Pro Bold", sans-serif;
+    color: #46A358;
     border-color:#46A358;
 }
 
-header.header > button.btn{
-    border-radius: 6px;
-    background: #46A358;
-    color: #fff;
+ul.list{
     display: flex;
-    gap: 4px;
-    justify-content: center;
-    align-items: center;
-    padding: 8px 17px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+    gap: 70px 37px;
+    /* color: #3D3D3D;
+    font-family: "Cera Pro Regular", sans-serif;
+    font-size: 12px;
+     */
 }
-
-main.main{
-    display: flex;
-    background: linear-gradient(98deg, rgba(245, 245, 245, 0.50) -23.46%, rgba(245, 245, 245, 0.50) 107.51%);
+img.img{
+   height: 250px;
 }
-
-div.text{
-    padding: 68px 40px 85px;
-}
-
-span.first{
+p.text{
     color: #3D3D3D;
-    font-family: "Cera Pro Medium", sans-serif;
-    font-size: 14px;
-    text-transform: uppercase;
-}
-
-p.second{
-    color: #3D3D3D;
-    font-family: "Cera Pro Black", sans-serif;
-    font-size: 70px;
-    text-transform: uppercase;
-}
-p.second > span{
-    color: #46A358;
-}
-p.third{
-    color: #727272;
     font-family: "Cera Pro Regular", sans-serif;
     font-size: 14px;
-    width: 80%;
+
 }
-div.text > button.btn{
-    background-color: #46A358;
-    color: #fff;
-    padding: 11px 27px;
+
+p.price{
+    color:#46A358;
+    font-family: "Cera Pro Bold", sans-serif;
+    font-size: 12px;
+}
+
+div.pages{
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: row wrap;
+    align-content: space-around;
+    gap: 2px;
+    padding: 30px 120px 52px;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+button.button{
+    
+    background-color: #d3cfcf;
+    color: #000;
     border-radius: 6px;
-    margin-top: 44px;
+    /* margin-top: 10px; */
+    border: 1px solid color #000;
+
+    padding: 5px 8px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
 }
 
-div.image{
-    position: relative;
-}
-
-img.small{
-    position: absolute;
-    bottom: 8%;
-    left: 8%;
+.button.active{
+    background-color: #46A358;
 }
