@@ -191,19 +191,20 @@ div.pages{
 
 button.button{
     
-    background-color: #d3cfcf;
+    background-color: #fbf8f8;
     color: #000;
-    border-radius: 6px;
     /* margin-top: 10px; */
-    border: 1px solid color #000;
-
-    padding: 5px 8px;
+    font-family: "Cera Pro Regular", sans-serif;
+    border-radius: 4px;
+    border: 1px solid #E5E5E5;
+    padding: 4px 9px;
     text-align: center;
     display: inline-block;
-    font-size: 14px;
+    font-size: 12px;
     cursor: pointer;
 }
 
 .button.active{
     background-color: #46A358;
+    color: #fff;
 }
