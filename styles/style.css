@@ -74,6 +74,56 @@ li.menuItem{
     font-size: 16px;
     padding-bottom: 25px;
     border-bottom: 3px solid transparent;
+    position: relative;
+}
+
+li.menuItem:hover > ul.submenu1{
+    display: flex;
+}
+
+ul.submenu1{
+    position: absolute;
+    top: 20px;
+    left: -20px;
+    display: none;
+    flex-direction: column;
+    max-width: 157px;
+    min-width: 157px;
+    padding-top: 20px;
+    z-index: 10;
+}
+
+ul.submenu2{
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    max-width: 170px;
+    min-width: 170px;
+    left: 147px;
+    padding-left: 10px;
+    z-index: 10;
+    top: -102px;
+}
+
+li.submenu1Item, li.submenu2Item{
+    padding: 7px 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #3D3D3D;
+    font-family: "Cera Pro Regular";
+    font-size: 16px;
+    background-color: #EDF6EE;
+    position: relative;
+}
+
+li.submenu1Item:hover, li.submenu2Item:hover{
+    background-color: #1a712a;
+    color: #fff;
+}
+
+li.submenu1Item:hover > ul.submenu2{
+    display: flex;
 }
 
 li.menuItem.active{
