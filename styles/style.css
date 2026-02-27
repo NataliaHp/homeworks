@@ -143,6 +143,232 @@ img.small{
 }
 /*hw 6 end*/
 /*hw 7*/
+div.flowers{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 100px;
+
+}
+
+div.conteiner-left{
+    display: flex;
+    flex-direction: column;
+    color: #3D3D3D;
+    font-family: "Cera Pro Regular", sans-serif;
+    font-size: 16px;
+    background: linear-gradient(98deg, rgba(245, 245, 245, 0.50) -23.46%, rgba(245, 245, 245, 0.50) 107.51%);
+   
+}
+div.conteiner-right{
+    /* margin-left: 50px; */
+}
+
+div.categories{
+    color: #3D3D3D;
+    font-family: "Cera Pro Regular", sans-serif;
+    font-size: 14px;
+    padding: 14px 18px;
+}
+menu.categories{
+    padding: 15px 15px;
+    margin-bottom: 370px;
+}
+
+h4.catItem{
+    color: #3D3D3D;
+    font-family: "Cera Pro Bold", sans-serif;
+    font-size: 14px;
+}
+
+li.catItem{
+    color: #3D3D3D;
+    font-family: "Cera Pro Regular", sans-serif;
+    font-size: 14px;
+    padding-bottom: 8px;
+}
+
+li.catItem.active{
+    font-family: "Cera Pro Bold", sans-serif;
+    color: #46A358;
+    border-color:#46A358;
+}
+div.promo{
+    display: flex;
+    width: 310px;
+    height: auto;
+    padding-right: 50px;
+    align-items: flex-end;
+}
+
+header.rightheader{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: start; */
+    margin-bottom: 12px;
+    color: #3D3D3D;
+    font-family: "Cera Pro Regular", sans-serif;
+    font-size: 12px;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+p.sort{
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: space-around;
+    gap: 2px;
+}
+
+menu.menu{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+   
+}
+
+li.menuItem{
+    color: #3D3D3D;
+    font-family: "Cera Pro Regular", sans-serif;
+    font-size: 12px;
+    padding-bottom: 8px;
+    border-bottom: 3px solid transparent;
+}
+
+li.menuItem.active{
+    font-family: "Cera Pro Bold", sans-serif;
+    color: #46A358;
+    border-color:#46A358;
+}
+
+ul.list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+    gap: 70px 37px;
+    /* color: #3D3D3D;
+    font-family: "Cera Pro Regular", sans-serif;
+    font-size: 12px;
+     */
+}
+
+li.list-item{
+    border-top: 1px solid transparent;
+}
+
+li.list-item:hover{
+    border-color: #46A358;
+}
+
+li.list-item:hover ul.controls{
+    display: flex;
+}
+
+
+div.listItemControl{
+    position: relative;
+}
+
+ul.controls{
+    display: none;
+    position: absolute;
+    bottom: 7px;
+    left: 25%;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+span.offertext{
+    display: inline-block;
+    background-color: #46A358;
+    color: #FFF;
+    position: absolute;
+    top: 14px;
+    left: 0;
+    font-size: 16px;
+    font-family: "Cera Pro Medium";
+    padding: 7px 8px;
+}
+
+span.priceoff{
+    display: inline-block;
+    font-size: 18px;
+    font-family: "Cera Pro Regular";
+    text-decoration: line-through;
+    margin-left: 16px;
+    color: #A5A5A5;
+}
+
+button.controlsButton{
+    border-radius: 4px;
+    background-color: #fff;
+    padding: 8px;
+    cursor: pointer;
+}
+
+button.controlsButton > svg path{
+    fill: #3D3D3D;
+}
+
+button.controlsButton:hover > svg path{
+    fill: #46A358;
+}
+
+
+img.img{
+   height: 250px;
+}
+li.list-item > p.text{
+    color: #3D3D3D;
+    font-family: "Cera Pro Regular", sans-serif;
+    font-size: 16px;
+
+}
+
+p.price{
+    color:#46A358;
+    font-family: "Cera Pro Bold", sans-serif;
+    font-size: 18px;
+}
+
+div.pages{
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: row wrap;
+    align-content: space-around;
+    gap: 2px;
+    margin-top: 90px;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+button.button{
+    
+    background-color: #fbf8f8;
+    color: #000;
+    /* margin-top: 10px; */
+    font-family: "Cera Pro Regular", sans-serif;
+    border-radius: 4px;
+    border: 1px solid #E5E5E5;
+    padding: 4px 9px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.button.active{
+    background-color: #46A358;
+    color: #fff;
+}
 
 /*hw 7 end*/
 /*hw8*/
@@ -177,7 +403,7 @@ div.textCard > button.btn{
 div.top{
     display: flex;
     gap: 28px;
-
+    margin-bottom: 138px;
 }
 
 ul.card{
@@ -251,6 +477,7 @@ li.post{
 
 li.post > img.img{
     width: 268px;
+    height: auto;
 }
 
 div.postText{
