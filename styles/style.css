@@ -210,25 +210,27 @@ div.conteiner-left{
     background: linear-gradient(98deg, rgba(245, 245, 245, 0.50) -23.46%, rgba(245, 245, 245, 0.50) 107.51%);
    
 }
-div.conteiner-right{
-    /* margin-left: 50px; */
-}
+/* div.conteiner-right{
+    margin-left: 50px;
+} */
 
 div.categories{
     color: #3D3D3D;
     font-family: "Cera Pro Regular", sans-serif;
     font-size: 14px;
-    padding: 14px 18px;
+    padding: 18px 25px;
 }
 menu.categories{
     padding: 15px 15px;
     margin-bottom: 370px;
+    
 }
 
 h4.catItem{
     color: #3D3D3D;
     font-family: "Cera Pro Bold", sans-serif;
     font-size: 14px;
+    
 }
 
 li.catItem{
@@ -236,6 +238,7 @@ li.catItem{
     font-family: "Cera Pro Regular", sans-serif;
     font-size: 14px;
     padding-bottom: 8px;
+    cursor: pointer;
 }
 
 li.catItem.active{
@@ -757,3 +760,33 @@ p.copyright{
     margin-bottom: 20px;
     margin-top: 10px;
 }
+
+/*-- HW13 --*/
+
+label.custom-checkbox{
+    position: relative;
+    cursor: pointer;
+    padding-bottom: 8px;
+}
+  
+
+li.custom-checkbox{
+    color: #3D3D3D;
+    font-family: "Cera Pro Regular", sans-serif;
+    font-size: 14px;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+
+label.custom-checkbox input:checked +span{
+   
+    font-size: 14px;
+    font-family: "Cera Pro Bold", sans-serif;
+    color: #46A358;
+}
+
+label.custom-checkbox input{
+    display: none;
+}
+
+    
